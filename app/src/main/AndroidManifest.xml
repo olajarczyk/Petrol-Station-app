@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projekt">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Rejestracja"/>
+        <activity android:name=".RezerwacjaMyjni"/>
+        <activity android:name=".RezerwacjaMyjniGodzina"/>
+        <activity android:name=".RezerwacjaMyjniNumer"/>
+        <activity android:name=".Portfel"/>
+        <activity android:name=".Punkty"/>
+        <activity android:name=".HistoriaKlasa"/>
+        <activity android:name=".OpcjeKlient"/>
+        <activity android:name=".OpcjePracownik"/>
+        <activity android:name=".OpcjeWlasciciel"/>
+        <activity android:name=".Logowanie"/>
+        <activity android:name=".Dystrybutory"/>
+        <activity android:name=".Faktury"/>
+        <activity android:name=".Raporty"/>
+        <activity android:name=".Monitoring"/>
+        <activity android:name=".Systemy_bezpieczenstwa"/>
+        <activity android:name=".BlokowanieDystrybutorow"/>
+        <activity android:name=".Nagrody"/>
+        <activity android:name=".Tankowanie"/>
+        <activity android:name=".Ceny_Paliw"/>
+        <activity android:name=".Klienci"/>
+        <activity android:name=".DystrybutorDane"/>
+        <activity android:name=".Tankowanie_Wybierz"/>
+        <activity android:name=".Benzyna"/>
+        <activity android:name=".Disel"/>
+        <activity android:name=".HistoriaTankowan"/>
+        <activity android:name=".HistoriaMyjni"/>
+        <activity android:name=".Gaz"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

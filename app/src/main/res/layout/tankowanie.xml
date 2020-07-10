@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <ImageButton
+        android:id="@+id/bCofnij"
+        android:layout_width="53dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936"
+        app:srcCompat="@drawable/app_123" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:text="Tankowanie"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="164dp"
+        android:layout_height="183dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297"
+        app:srcCompat="@drawable/gas_station_296598_1280" />
+
+    <Button
+        android:id="@+id/bWybierz"
+        android:layout_width="171dp"
+        android:layout_height="55dp"
+        android:background="#15008AD4"
+        android:text="Wybierz dystrybutor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
+
+</android.support.constraint.ConstraintLayout>

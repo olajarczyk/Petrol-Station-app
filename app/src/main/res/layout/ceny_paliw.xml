@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <EditText
+        android:id="@+id/eGaz"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <EditText
+        android:id="@+id/eDisel"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <EditText
+        android:id="@+id/eBenzyna"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444"
+        app:srcCompat="@drawable/gaz" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="77dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@drawable/disel" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442"
+        app:srcCompat="@drawable/benzyna" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaz:"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disel:"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Benzyna:"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="156dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137"
+        app:srcCompat="@drawable/calculator_4919597_1280" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:text="  Ceny paliw"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageButton
+        android:id="@+id/bCofnij"
+        android:layout_width="47dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936"
+        app:srcCompat="@drawable/app_123" />
+
+    <Button
+        android:id="@+id/bUstawBenzyna"
+        android:layout_width="77dp"
+        android:layout_height="43dp"
+        android:text="Ustaw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <Button
+        android:id="@+id/bUstawDisel"
+        android:layout_width="77dp"
+        android:layout_height="43dp"
+        android:text="Ustaw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <Button
+        android:id="@+id/bUstawGaz"
+        android:layout_width="77dp"
+        android:layout_height="43dp"
+        android:text="Ustaw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <TextView
+        android:id="@+id/tCenaBenzyny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cena Benzyny: "
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <TextView
+        android:id="@+id/tCenaDisel"
+        android:layout_width="60dp"
+        android:layout_height="17dp"
+        android:text="TextView"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <TextView
+        android:id="@+id/tCenaGaz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+</android.support.constraint.ConstraintLayout>
